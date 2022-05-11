@@ -1,14 +1,13 @@
 {
-  "name": "WorkshopTDD",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
   "dependencies": {
-    "@types/jest": "^27.4.1",
-    "jest": "^28.0.2",
-    "ts-jest": "^27.1.4"
+    "typescript": "^4.6.4"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "compile": "npx tsc src/*"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.0",
+    "ts-jest": "^28.0.1"
   }
 }

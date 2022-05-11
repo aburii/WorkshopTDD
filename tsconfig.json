@@ -1,14 +1,11 @@
 {
   "compilerOptions": {
+    "target": "es2016",
+    "skipLibCheck": true,
     "module": "commonjs",
-    "target": "es2020",
+    "strict": true,
+    "outDir": "./dist",
     "sourceMap": true,
-    "outDir": "js-src"
+    "types": ["jest"],
   },
-    "include": [
-        "./src/*.ts"
-    ],
-  "exclude": [
-    "node_modules"
-  ]
 }
